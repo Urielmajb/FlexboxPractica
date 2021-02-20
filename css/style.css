@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxS;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+
+    font-weight: 300;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1::after{
+
+    content: "";
+    background-color: #108991;
+    width: 100%;
+    height: 6px;
+    display: block;
+
+}
+
